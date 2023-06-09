@@ -1,0 +1,29 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+body {
+    margin: 120px 50px;
+    background-color: paleturquoise;
+    padding: 120px 40px;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+}
+.invisible {
+    display: none;
+  }
+.loadWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding: 30px;
+}
+.cat-info {
+    display: flex;
+    gap: 40px;
+    padding-left: 50px;
+}
+.cat-info-desc {
+    width: 400px;
+  line-height: 120%;
+}
